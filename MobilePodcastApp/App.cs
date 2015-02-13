@@ -9,20 +9,29 @@ namespace MobilePodcastApp
 {
 	public class App : Application
 	{
+        public static AppSettings AppSettings { get; set; }
+
 		public App ()
 		{
-			// The root page of your application
-			MainPage = new ContentPage {
-				Content = new StackLayout {
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label {
-							XAlign = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
-						}
-					}
-				}
-			};
+            //// The root page of your application
+            //MainPage = new ContentPage {
+            //    Content = new StackLayout {
+            //        VerticalOptions = LayoutOptions.Center,
+            //        Children = {
+            //            new Label {
+            //                XAlign = TextAlignment.Center,
+            //                Text = "Welcome to Xamarin Forms!"
+            //            }
+            //        }
+            //    }
+            //};
+
+            AppSettings = new AppSettings();
+
+            MainPage = new TabsPage();
+            {
+                
+            }
 		}
 
 		protected override void OnStart ()
