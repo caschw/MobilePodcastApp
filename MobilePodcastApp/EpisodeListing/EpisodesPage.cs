@@ -4,8 +4,11 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Xml.Linq;
 using Xamarin.Forms;
+using DataTemplate = Xamarin.Forms.DataTemplate;
+using Thickness = Xamarin.Forms.Thickness;
 
 // ReSharper disable once CheckNamespace
 namespace MobilePodcastApp.EpisodeListing
@@ -47,10 +50,17 @@ namespace MobilePodcastApp.EpisodeListing
 	            })
 	        };
 
+            episodeListView.ItemSelected += EpisodeListViewOnItemSelected;
 
 	        Content = episodeListView;
 
 	        Task.Run(async () => await LoadEpisodeList());
+	    }
+
+	    private void EpisodeListViewOnItemSelected(object sender, SelectedItemChangedEventArgs selectedItemChangedEventArgs)
+	    {
+	        var selected = (FeedItem) selectedItemChangedEventArgs.SelectedItem;
+	        Navigation.PushAsync(new EpisodeDetail(selected));
 	    }
 
 	    private async Task LoadEpisodeList()

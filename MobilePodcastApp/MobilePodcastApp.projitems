@@ -12,6 +12,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)About.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EpisodeListing\EpisodeDetail.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EpisodeListing\EpisodeListNav.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EpisodeListing\EpisodesPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EpisodeListing\FeedItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TabsPage.cs" />

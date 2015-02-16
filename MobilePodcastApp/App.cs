@@ -28,11 +28,14 @@ namespace MobilePodcastApp
 
             AppSettings = new AppSettings();
 
-            MainPage = new TabsPage();
-            {
-                
-            }
+            MainPage = GetMainPage();
 		}
+
+	    public static Page GetMainPage()
+	    {
+	        var mainNav = new NavigationPage(new TabsPage());
+	        return mainNav;
+	    }
 
 		protected override void OnStart ()
 		{
