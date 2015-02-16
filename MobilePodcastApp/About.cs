@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
+﻿using Xamarin.Forms;
+using Label = Xamarin.Forms.Label;
 
-using Xamarin.Forms;
-
+// ReSharper disable once CheckNamespace
 namespace MobilePodcastApp
 {
-	public class About : ContentPage
+	public class AboutPage : ContentPage
 	{
-		public About ()
+        public AboutPage()
 		{
 			Content = new StackLayout {
 				Children = {
-					//new Label { Text = "Hello ContentPage" }
+					new Label { Text = App.AppSettings.PodcastDescription }
 				}
 			};
 		}

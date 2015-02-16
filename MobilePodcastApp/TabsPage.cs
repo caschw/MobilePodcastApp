@@ -14,7 +14,7 @@ namespace MobilePodcastApp
 		public TabsPage ()
 		{
             Children.Add(new MobilePodcastApp.EpisodeListing.EpisodesView { Title = "Episodes" });
-            Children.Add(new TestPage { Title = "About" });
+            Children.Add(new AboutPage { Title = "About" });
 		}
 	}
 }

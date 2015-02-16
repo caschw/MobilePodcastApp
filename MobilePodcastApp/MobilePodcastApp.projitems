@@ -17,6 +17,5 @@
     <Compile Include="$(MSBuildThisFileDirectory)EpisodeListing\EpisodesPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EpisodeListing\FeedItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TabsPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)TestPage.cs" />
   </ItemGroup>
 </Project>
