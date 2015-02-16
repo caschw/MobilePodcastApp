@@ -12,14 +12,42 @@ namespace MobilePodcastApp.EpisodeListing
 {
 	public class EpisodesView : ContentPage
 	{
-	    private readonly ObservableCollection<string> _episodeTitles = new ObservableCollection<string>();
+        private readonly ObservableCollection<FeedItem> _episodes = new ObservableCollection<FeedItem>();
 
 	    public EpisodesView()
 	    {
 	        var episodeListView = new ListView
 	        {
-	            ItemsSource = _episodeTitles
+	            ItemsSource = _episodes,
+	            ItemTemplate = new DataTemplate(() =>
+	            {
+	                var titleLabel = new Label{FontSize = 26, FontAttributes = FontAttributes.Bold};
+                    titleLabel.SetBinding(Label.TextProperty, "Title");
+
+	                var publishDateLabel = new Label();
+                    publishDateLabel.SetBinding(Label.TextProperty, new Binding("PublicationDate", stringFormat:"{0:d}"));
+
+	                return new ViewCell
+	                {
+	                    View = new StackLayout
+	                    {
+	                        Padding = new Thickness(0, 0, 0, 20),
+	                        Orientation = StackOrientation.Vertical,
+	                        Children =
+	                        {
+	                            titleLabel,
+	                            new StackLayout
+	                            {
+	                                Orientation = StackOrientation.Horizontal,
+	                                Children = {publishDateLabel}
+	                            }
+	                        }
+	                    }
+	                };
+	            })
 	        };
+
+
 	        Content = episodeListView;
 
 	        Task.Run(async () => await LoadEpisodeList());
@@ -29,9 +57,9 @@ namespace MobilePodcastApp.EpisodeListing
 	    {
             var episodes = await GetEpisodes();
 
-	        foreach (var title in episodes.Select(x => x.Title))
+	        foreach (var episode in episodes)
 	        {
-	            _episodeTitles.Add(title);
+                _episodes.Add(episode);
 	        }
 	    }
 
