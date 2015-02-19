@@ -19,10 +19,11 @@ namespace MobilePodcastApp.EpisodeListing
 	public class EpisodesView : ContentPage
 	{
         private readonly ObservableCollection<FeedItem> _episodes = new ObservableCollection<FeedItem>();
+	    private readonly ListView _episodeListView;
 
 	    public EpisodesView()
 	    {
-	        var episodeListView = new ListView
+	        _episodeListView = new ListView
 	        {
 	            ItemsSource = _episodes,
 	            ItemTemplate = new DataTemplate(() =>
@@ -53,16 +54,24 @@ namespace MobilePodcastApp.EpisodeListing
 	            })
 	        };
 
-            episodeListView.ItemSelected += EpisodeListViewOnItemSelected;
+            _episodeListView.ItemTapped += EpisodeListViewOnItemSelected;
 
-	        Content = episodeListView;
+            Content = _episodeListView;
 
 	        Task.Run(async () => await LoadEpisodeList());
 	    }
 
-	    private void EpisodeListViewOnItemSelected(object sender, SelectedItemChangedEventArgs selectedItemChangedEventArgs)
+	    protected override void OnAppearing()
 	    {
-	        var selected = (FeedItem) selectedItemChangedEventArgs.SelectedItem;
+            //This is needed so that when the user returns the episode list,
+            //they can select the same item again
+	        _episodeListView.SelectedItem = null;
+	        base.OnAppearing();
+	    }
+
+	    private void EpisodeListViewOnItemSelected(object sender, ItemTappedEventArgs eventArgs)
+	    {
+	        var selected = (FeedItem) eventArgs.Item;
 	        Navigation.PushAsync(new EpisodeDetail(selected));
 	    }
 
