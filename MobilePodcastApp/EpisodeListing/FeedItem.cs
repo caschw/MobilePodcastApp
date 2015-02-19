@@ -10,5 +10,7 @@ namespace MobilePodcastApp.EpisodeListing
         public string Description { get; set; }
         public DateTime PublicationDate { get; set; }
         public string GUID { get; set; }
+        public string EnclosureUrl { get; set; }
+        public TimeSpan Duration { get; set; }
     }
 }

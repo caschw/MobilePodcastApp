@@ -162,6 +162,9 @@
     <Reference Include="Microsoft.Phone.Controls.Toolkit">
       <HintPath>..\..\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Net.Http">
       <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.dll</HintPath>
     </Reference>
@@ -180,6 +183,12 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\..\packages\Xamarin.Forms.1.3.1.6296\lib\WP80\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WindowsPhonePlaybackAgent\WindowsPhonePlaybackAgent.csproj">
+      <Project>{756858c5-16ba-4e01-a3a8-4706d12dba78}</Project>
+      <Name>WindowsPhonePlaybackAgent</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\MobilePodcastApp\MobilePodcastApp.projitems" Label="Shared" Condition="Exists('..\MobilePodcastApp\MobilePodcastApp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />

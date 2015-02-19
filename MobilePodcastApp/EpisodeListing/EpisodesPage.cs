@@ -4,11 +4,14 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System.Windows;
 using System.Xml.Linq;
 using Xamarin.Forms;
 using DataTemplate = Xamarin.Forms.DataTemplate;
 using Thickness = Xamarin.Forms.Thickness;
+
+#if WINDOWS_PHONE
+using WindowsPhonePlaybackAgent;
+#endif
 
 // ReSharper disable once CheckNamespace
 namespace MobilePodcastApp.EpisodeListing
@@ -66,6 +69,18 @@ namespace MobilePodcastApp.EpisodeListing
 	    private async Task LoadEpisodeList()
 	    {
             var episodes = await GetEpisodes();
+	        episodes = episodes.ToList();
+
+            //Get the tracks ready to play before displaying
+            var tracks = episodes.OrderBy(x => x.PublicationDate)
+                .Select(x => new Episode { EpisodeTitle = x.Title, Mp3Url = x.EnclosureUrl })
+                .ToList();
+
+	        var playlist = new PlaylistCache
+	        {
+	            Episodes = tracks
+	        };
+            PlaylistCache.Save(playlist);
 
 	        foreach (var episode in episodes)
 	        {
@@ -86,7 +101,9 @@ namespace MobilePodcastApp.EpisodeListing
                  Link = item.Element("link").Value,
                  Description = item.Element("description").Value,
                  PublicationDate = DateTime.Parse(item.Element("pubDate").Value),
-                 GUID = item.Element("guid").Value
+                 GUID = item.Element("guid").Value,
+                 EnclosureUrl = item.Element("enclosure").Attribute("url").Value,
+                 //Duration = TimeSpan.Parse(item.Element("duration").Value)
              }).ToList();
 
 	        return items;
