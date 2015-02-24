@@ -1,5 +1,4 @@
-﻿// ReSharper disable once CheckNamespace
-namespace MobilePodcastApp
+﻿namespace MobilePodcastApp.Common
 {
     public class AppSettings
     {

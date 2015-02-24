@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using MobilePodcastApp.Common;
+using Xamarin.Forms;
 
 // ReSharper disable once CheckNamespace
 namespace MobilePodcastApp

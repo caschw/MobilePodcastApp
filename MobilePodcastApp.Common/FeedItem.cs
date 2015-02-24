@@ -1,7 +1,6 @@
 ﻿using System;
 
-// ReSharper disable once CheckNamespace
-namespace MobilePodcastApp.EpisodeListing
+namespace MobilePodcastApp.Common
 {
     public class FeedItem
     {

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Windows;
 using Microsoft.Phone.BackgroundAudio;
+using MobilePodcastApp.Common;
 
 namespace WindowsPhonePlaybackAgent
 {
@@ -22,7 +23,7 @@ namespace WindowsPhonePlaybackAgent
 
             try
             {
-                var playlist = PlaylistCache.Load();
+                var playlist = PlaylistCache.Load().Result;
                 PopulateTrackList(playlist);
             }
             catch (Exception ex)

@@ -1,4 +1,4 @@
-﻿namespace WindowsPhonePlaybackAgent
+﻿namespace MobilePodcastApp.Common
 {
     public class Episode
     {

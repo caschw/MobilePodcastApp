@@ -5,13 +5,10 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using MobilePodcastApp.Common;
 using Xamarin.Forms;
 using DataTemplate = Xamarin.Forms.DataTemplate;
 using Thickness = Xamarin.Forms.Thickness;
-
-#if WINDOWS_PHONE
-using WindowsPhonePlaybackAgent;
-#endif
 
 // ReSharper disable once CheckNamespace
 namespace MobilePodcastApp.EpisodeListing
@@ -20,19 +17,21 @@ namespace MobilePodcastApp.EpisodeListing
 	{
         private readonly ObservableCollection<FeedItem> _episodes = new ObservableCollection<FeedItem>();
 	    private readonly ListView _episodeListView;
+	    private readonly ActivityIndicator _activityIndicator;
 
 	    public EpisodesView()
 	    {
 	        _episodeListView = new ListView
 	        {
+	            IsVisible = false,
 	            ItemsSource = _episodes,
 	            ItemTemplate = new DataTemplate(() =>
 	            {
-	                var titleLabel = new Label{FontSize = 26, FontAttributes = FontAttributes.Bold};
-                    titleLabel.SetBinding(Label.TextProperty, "Title");
+	                var titleLabel = new Label {FontSize = 26, FontAttributes = FontAttributes.Bold};
+	                titleLabel.SetBinding(Label.TextProperty, "Title");
 
 	                var publishDateLabel = new Label();
-                    publishDateLabel.SetBinding(Label.TextProperty, new Binding("PublicationDate", stringFormat:"{0:d}"));
+	                publishDateLabel.SetBinding(Label.TextProperty, new Binding("PublicationDate", stringFormat: "{0:d}"));
 
 	                return new ViewCell
 	                {
@@ -54,19 +53,35 @@ namespace MobilePodcastApp.EpisodeListing
 	            })
 	        };
 
-            _episodeListView.ItemTapped += EpisodeListViewOnItemSelected;
+	        _episodeListView.ItemTapped += EpisodeListViewOnItemSelected;
 
-            Content = _episodeListView;
+            _activityIndicator = new ActivityIndicator { IsRunning = true };
 
-	        Task.Run(async () => await LoadEpisodeList());
+            Content = new StackLayout { Orientation = StackOrientation.Vertical , Children = { _activityIndicator, _episodeListView } };
+	        //Content = _activityIndicator;
+
+            Appearing += OnAppearing;
 	    }
 
-	    protected override void OnAppearing()
+	    private async void OnAppearing(object sender, EventArgs eventArgs)
 	    {
-            //This is needed so that when the user returns the episode list,
-            //they can select the same item again
-	        _episodeListView.SelectedItem = null;
-	        base.OnAppearing();
+	        try
+	        {
+                await LoadEpisodeList();
+
+                _activityIndicator.IsVisible = false;
+                _activityIndicator.IsEnabled = false;
+                _episodeListView.IsVisible = true;
+
+                //This is needed so that when the user returns the episode list,
+                //they can select the same item again
+                _episodeListView.SelectedItem = null;
+	        }
+	        catch (Exception ex)
+	        {
+	            throw;
+	        }
+
 	    }
 
 	    private void EpisodeListViewOnItemSelected(object sender, ItemTappedEventArgs eventArgs)
@@ -89,7 +104,7 @@ namespace MobilePodcastApp.EpisodeListing
 	        {
 	            Episodes = tracks
 	        };
-            PlaylistCache.Save(playlist);
+            await PlaylistCache.Save(playlist);
 
 	        foreach (var episode in episodes)
 	        {

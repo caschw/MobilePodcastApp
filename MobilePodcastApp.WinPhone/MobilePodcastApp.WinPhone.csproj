@@ -187,6 +187,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MobilePodcastApp.Common\MobilePodcastApp.Common.csproj">
+      <Project>{74837511-e71e-4203-b810-e491b6df1285}</Project>
+      <Name>MobilePodcastApp.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WindowsPhonePlaybackAgent\WindowsPhonePlaybackAgent.csproj">
       <Project>{756858c5-16ba-4e01-a3a8-4706d12dba78}</Project>
       <Name>WindowsPhonePlaybackAgent</Name>

@@ -1,8 +1,7 @@
-﻿using WindowsPhonePlaybackAgent;
-using Microsoft.Xna.Framework.Media;
-using System.Linq;
+﻿using System.Linq;
 using System;
 using Microsoft.Phone.BackgroundAudio;
+using MobilePodcastApp.Common;
 using Xamarin.Forms;
 using Label = Xamarin.Forms.Label;
 
@@ -33,11 +32,11 @@ namespace MobilePodcastApp.EpisodeListing
 			};
 		}
 
-	    private void PlayButtonOnClicked(object sender, EventArgs eventArgs)
+	    private async void PlayButtonOnClicked(object sender, EventArgs eventArgs)
 	    {
-	        var playlist = PlaylistCache.Load();
+	        var playlist = await PlaylistCache.Load();
             playlist.UserSelectedEpisode = playlist.Episodes.Single(x => x.Mp3Url == _displayedFeedItem.EnclosureUrl);
-            PlaylistCache.Save(playlist);
+            await PlaylistCache.Save(playlist);
 
             var player = BackgroundAudioPlayer.Instance;
             player.Play();
