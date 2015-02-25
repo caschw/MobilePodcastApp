@@ -36,6 +36,9 @@ namespace MobilePodcastApp.EpisodeListing
 	                var publishDateLabel = new Label();
 	                publishDateLabel.SetBinding(Label.TextProperty, new Binding("PublicationDate", stringFormat: "{0:d}"));
 
+	                var durationLabel = new Label();
+                    durationLabel.SetBinding(Label.TextProperty, new Binding("Duration", stringFormat: "{0}"));
+
 	                return new ViewCell
 	                {
 	                    View = new StackLayout
@@ -48,7 +51,12 @@ namespace MobilePodcastApp.EpisodeListing
 	                            new StackLayout
 	                            {
 	                                Orientation = StackOrientation.Horizontal,
-	                                Children = {publishDateLabel}
+	                                Children =
+	                                {
+	                                    publishDateLabel,
+                                        new Label { Text = "Duration:" },
+                                        durationLabel
+	                                }
 	                            }
 	                        }
 	                    }
