@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<channel>
+		<atom:link href="http://msdevshow.libsyn.com/rss" rel="self" type="application/rss+xml"/>
+		<title>MS Dev Show</title>
+		<pubDate>Mon, 23 Feb 2015 00:17:30 +0000</pubDate>
+		<lastBuildDate>Mon, 23 Feb 2015 00:40:08 +0000</lastBuildDate>
+		<generator>Libsyn WebEngine 2.0</generator>
+		<link>http://msdevshow.com</link>
+		<language>en</language>
+		<copyright><![CDATA[Jason Young and Carl Schweitzer]]></copyright>
+		<docs>http://msdevshow.com</docs>
+		<managingEditor>feedback@msdevshow.com (feedback@msdevshow.com)</managingEditor>
+		<description><![CDATA[THE podcast for Microsoft developers. Jason and Carl talk about the latest in developer news covering topics such as the cloud and cross-platform development using the Microsoft platform.]]></description>
+		<image>
+			<url>http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png</url>
+			<title>MS Dev Show</title>
+			<link><![CDATA[http://msdevshow.com]]></link>
+		</image>
+		<itunes:author>Jason Young &amp; Carl Schweitzer</itunes:author>
+		<itunes:keywords>azure,cloud,developer,microsoft,podcast,windows</itunes:keywords>
+	<itunes:category text="Technology">
+		<itunes:category text="Software How-To"/>
+	</itunes:category>
+	<itunes:category text="Technology">
+		<itunes:category text="Tech News"/>
+	</itunes:category>
+	<itunes:category text="Technology"/>
+		<itunes:image href="http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png" />
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:owner>
+			<itunes:name><![CDATA[Jason Young]]></itunes:name>
+			<itunes:email>jason@ytechie.com</itunes:email>
+		</itunes:owner>
+		<itunes:summary><![CDATA[THE podcast for Microsoft developers. Jason Young and Carl Schweitzer talk about the latest in developer news covering topics such as the Azure cloud, Windows, Windows Phone, Visual Studio, and cross-platform development using the Microsoft platform.]]></itunes:summary>
+		<itunes:subtitle><![CDATA[The Microsoft Developer Show]]></itunes:subtitle>
+				<item>
+			<title>Soft Skills with John Sonmez</title>
+			<pubDate>Mon, 23 Feb 2015 00:17:30 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[e5c299990328725409374e2953b1c47c]]></guid>
+			<link><![CDATA[http://msdevshow.com/2015/02/soft-skills-with-john-sonmez/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/2/3/9/f/239f99e58dc392dd/Square_Logo_with_Pixel_Background.png" />
+			<description><![CDATA[This week we talk to John Sonmez about all the details software developers didn't learn in school. Creating a DMZ in Azure, and the Joel test for Programmers.]]></description>
+			<enclosure length="45861054" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0044.mp3" />
+			<itunes:duration>01:03:42</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure,developer</itunes:keywords>
+			<itunes:subtitle><![CDATA[This week we talk to John Sonmez about all the details software developers didn't learn in school. Creating a DMZ in Azure, and the Joel test for Programmers.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>ASP.NET 5 and More with Scott Hanselman</title>
+			<pubDate>Tue, 17 Feb 2015 14:14:26 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[59ad869e1936de2114f7ca29ac663b00]]></guid>
+			<link><![CDATA[http://msdevshow.com/2015/02/asp.net-5-and-more-with-scott-hanselman/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/2/d/a/12da20639cbd9b4e/iTunes_Cover_Art.png" />
+			<description><![CDATA[Welcome to the MS Dev Show, episode #43. This week we talk to Scott Hanselman about ASP.NET 5, community, and more. The best new Windows phone 10 features in 6 gifs. And You don't know JS, the book.]]></description>
+			<enclosure length="33665505" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0043.mp3" />
+			<itunes:duration>46:46</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>cloud,azure,hanselman</itunes:keywords>
+			<itunes:subtitle><![CDATA[Welcome to the MS Dev Show, episode #43. This week we talk to Scott Hanselman about ASP.NET 5, community, and more. The best new Windows phone 10 features in 6 gifs. And You don't know JS, the book.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Raygun with John-Daniel Trask</title>
+			<pubDate>Tue, 10 Feb 2015 04:27:05 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[dd12fa8edcc6bb5420d367f52ebf13da]]></guid>
+			<link><![CDATA[http://msdevshow.com/2015/02/raygun-with-john-daniel-trask/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png" />
+			<description><![CDATA[We talk to John-Daniel Trask about how to track exceptions in your application with Raygun. The modern version of office. The Azure cloud platform roadmap. A Raspberry Pi 2 running Windows 10.]]></description>
+			<enclosure length="45275171" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0042.mp3" />
+			<itunes:duration>01:02:53</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,aspnet,azure,raygun</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to John-Daniel Trask about how to track exceptions in your application with Raygun. The modern version of office. The Azure cloud platform roadmap. A Raspberry Pi 2 running Windows 10.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Websites, Kudu, and WebJobs with David Ebbo</title>
+			<pubDate>Fri, 30 Jan 2015 14:04:30 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[682463921eeba3a21f324b8f7bde15a4]]></guid>
+			<link><![CDATA[http://msdevshow.com/2015/01/websites-kudu-and-webjobs-with-david-ebbo/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/4/1/b/5/41b5d3da6ea262bc/Square_-_Blue.png" />
+			<description><![CDATA[We talk to David Ebbo about websites, Kudu, WebJobs, and what makes them tick. Coding an elevator with JavaScript. Live coding a JavaScript game from scratch on stage.]]></description>
+			<enclosure length="27755807" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0041.mp3" />
+			<itunes:duration>38:33</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure,kudu,webjob</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to David Ebbo about websites, Kudu, WebJobs, and what makes them tick. Coding an elevator with JavaScript. Live coding a JavaScript game from scratch on stage.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>DevOps with Steven Murawski</title>
+			<pubDate>Sat, 24 Jan 2015 14:35:43 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[758ebc7b2355eb00fe65e7468c75437d]]></guid>
+			<link><![CDATA[http://msdevshow.com/2015/01/dev-ops-with-steven-murawski/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/5/d/3/15d339b184350626/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Steven Murawski about his experience practicing DevOps at stack exchange and Chef. We also talk about the Windows 10 announcement. Did they just announce freaking holograms?]]></description>
+			<enclosure length="55205662" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0040.mp3" />
+			<itunes:duration>01:16:41</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure,devops</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Steven Murawski about his experience practicing DevOps at stack exchange and Chef. We also talk about the Windows 10 announcement. Did they just announce freaking holograms?]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>MVVM Light with Laurent Bugnion</title>
+			<pubDate>Sat, 17 Jan 2015 02:49:58 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[4afd57af294b56ddd140cccfa794e91d]]></guid>
+			<link><![CDATA[http://msdevshow.com/2015/01/mvvm-light-with-laurent-bugnion/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/c/0/f/5/c0f58d31465edc52/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Laurent Bugnion about MVVM Light. Applying NASA coding standards to JavaScript. Roslyn is moving to GitHub. Can a computer be racist?]]></description>
+			<enclosure length="68841609" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0039.mp3" />
+			<itunes:duration>01:11:43</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure,mvvm</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Laurent Bugnion about MVVM Light. Applying NASA coding standards to JavaScript. Roslyn is moving to GitHub. Can a computer be racist?]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Azure Stream Analytics with Janet Yeilding</title>
+			<pubDate>Fri, 09 Jan 2015 14:29:52 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[f2596c8d79fe6609cef6d48f71c37b06]]></guid>
+			<link><![CDATA[http://msdevshow.com/2015/01/azure-stream-analytics-with-janet-yeilding/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/e/9/0/b/e90b44496588d666/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Janet Yeilding about Azure Stream Analytics. How StackExchange handles 560 million pageview each month. And unit tests are finally getting smarter.]]></description>
+			<enclosure length="29807956" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0038.mp3" />
+			<itunes:duration>41:24</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>streaming,windows,azure,analytics,hdinsight</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Janet Yeilding about Azure Stream Analytics. How StackExchange handles 560 million pageview each month. And unit tests are finally getting smarter.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>News, Questions, and Asteroid Mining</title>
+			<pubDate>Thu, 01 Jan 2015 23:12:46 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[2114d2ca4edef9de453bb46707a3f336]]></guid>
+			<link><![CDATA[http://msdevshow.com/2015/01/news-questions-and-asteroid-mining/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/a/5/9/d/a59d0d05dd52f50f/Square_-_Blue.png" />
+			<description><![CDATA[Welcome to the MS Dev Show, episode #37. This week Carl and Jason talk about how to not hate JavaScript, keep your cloud keys out of GitHub, and Jason explains a shortcut to asteroid mining.]]></description>
+			<enclosure length="44424916" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0037.mp3" />
+			<itunes:duration>01:01:42</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,programming,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[Welcome to the MS Dev Show, episode #37. This week Carl and Jason talk about how to not hate JavaScript, keep your cloud keys out of GitHub, and Jason explains a shortcut to asteroid mining.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>What You Need to Know about the Internet of Things</title>
+			<pubDate>Fri, 26 Dec 2014 13:26:21 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[04bcc6cd9a1e7d0dae2f2b51f4d3d578]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/12/what-you-need-to-know-about-the-internet-of-things-with-josh-holmes/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/c/0/2/3/c023bc59cbab9fc3/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Josh Holmes to learn what you need to know about the internet of things. DRM'd cat litter, and we cry over bad password security.]]></description>
+			<enclosure length="57017278" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0036.mp3" />
+			<itunes:duration>01:19:12</itunes:duration>
+			<itunes:explicit>no</itunes:explicit>
+			<itunes:keywords>windows,azure,devices,iot</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Josh Holmes to learn what you need to know about the internet of things. DRM'd cat litter, and we cry over bad password security.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>AngularJS with John Ptacek</title>
+			<pubDate>Fri, 19 Dec 2014 23:00:58 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[dc07c1e0501023c6c99edfac810327ee]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/12/angularjs-with-john-ptacek/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/3/a/1/7/3a173d51b8099935/Square_-_Blue.png" />
+			<description><![CDATA[We talk to John Ptacek about AngularJS. Big-o notation. The worst programming language ever. Emailing hardware to outer space.]]></description>
+			<enclosure length="49459964" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0035.mp3" />
+			<itunes:duration>01:08:42</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,javascript,azure,angularjs</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to John Ptacek about AngularJS. Big-o notation. The worst programming language ever. Emailing hardware to outer space.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Real Developer Potpourri with Trish Curry</title>
+			<pubDate>Fri, 12 Dec 2014 23:33:28 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[5705ca7635c2f36746a0a59461ada0a4]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/12/real-developer-potpourri-with-trish-curry/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/c/d/3/8/cd38bb4a7c38d971/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Trish Curry about moving to Azure, building mobile apps with Xamarin, and data science. Forking node, top 10 mistakes node.js developers make, shaving milliseconds, and how to make sure your app is on the nice list this Christmas.]]></description>
+			<enclosure length="51709666" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0034.mp3" />
+			<itunes:duration>01:11:50</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,software,development,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Trish Curry about moving to Azure, building mobile apps with Xamarin, and data science. Forking node, top 10 mistakes node.js developers make, shaving milliseconds, and how to make sure your app is on the nice list this Christmas.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Double Your App Revenue with a Global Audience</title>
+			<pubDate>Fri, 05 Dec 2014 15:02:58 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[e0335ab97c2fc8ac98aa3c7745de44bf]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/12/double-your-app-revenue-with-a-global-audience-with-mattias-liivak-and-jaana-metsamaa/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/3/b/9/e/3b9e7cec9272e4d7/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Mattias and Jaana about the massive global opportunities for mobile apps. Artificial intelligence is now creating magic tricks. Home automation for $5.]]></description>
+			<enclosure length="50947744" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0033.mp3" />
+			<itunes:duration>01:10:46</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,mobile,payments,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Mattias and Jaana about the massive global opportunities for mobile apps. Artificial intelligence is now creating magic tricks. Home automation for $5.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>App Design for Monetization with Atley Hunter</title>
+			<pubDate>Fri, 28 Nov 2014 19:04:28 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[51af304b3088959e79d9f93e8573bf06]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/11/app-design-for-monetization-with-atley-hunter/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/7/f/1/4/7f1422372eb34410/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Atley Hunter about designing your apps for monetization. SSL all the things. Cache is the new RAM. And a picture is worth a thousand words.]]></description>
+			<enclosure length="55483719" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0032.mp3" />
+			<itunes:duration>01:17:04</itunes:duration>
+			<itunes:explicit>no</itunes:explicit>
+			<itunes:keywords>windows,microsoft,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Atley Hunter about designing your apps for monetization. SSL all the things. Cache is the new RAM. And a picture is worth a thousand words.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Getting People Excited about Technology with Anthony Russell</title>
+			<pubDate>Sat, 22 Nov 2014 03:04:15 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[69aed2dd4e69ccb661bbacbf493ed112]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/11/getting-people-excited-about-technology-with-anthony-russell/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png" />
+			<description><![CDATA[We talk to Anthony Russell about getting the next generation of technology enthusiasts. The Microsoft band is useful in surprising places. Http/2 all the things! Why did you write your code this way?]]></description>
+			<enclosure length="47948600" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0031.mp3" />
+			<itunes:duration>01:06:36</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,development,coding,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Anthony Russell about getting the next generation of technology enthusiasts. The Microsoft band is useful in surprising places. Http/2 all the things! Why did you write your code this way?]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Chocolatey with Rob Reynolds</title>
+			<pubDate>Sat, 15 Nov 2014 05:14:43 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[7268ec927f99daa31fce6c1e8e5afbc1]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/11/chocolatey-with-rob-reynolds/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/3/1/6/0/31609d81f748f228/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Rob Reynolds about the sweetness of Chocolatey. .NET is on Linux and Mac. Visual Studio 2015. Microsoft makes you an offer you can't refuse.]]></description>
+			<enclosure length="45929725" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0030.mp3" />
+			<itunes:duration>01:03:48</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>azure,aws,chocolatey</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Rob Reynolds about the sweetness of Chocolatey. .NET is on Linux and Mac. Visual Studio 2015. Microsoft makes you an offer you can't refuse.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>SELECT * FROM Awesome WHERE Guest = Jes Borland</title>
+			<pubDate>Mon, 03 Nov 2014 15:31:20 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[1e8588a6cb4fff907b63c753cb802d08]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/11/select-_-from-awesome-with-jes-borland/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/f/6/d/a/f6dac539ef8028bb/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Jes Borland about SQL Server. Loads of Azure announcements from TechEd Europe. Making math easy with PhotoMath.]]></description>
+			<enclosure length="43729762" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0029.mp3" />
+			<itunes:duration>01:00:45</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>sql,server,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Jes Borland about SQL Server. Loads of Azure announcements from TechEd Europe. Making math easy with PhotoMath.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>How to Get Your Boss to Pay for Azure with Kenny Young</title>
+			<pubDate>Tue, 28 Oct 2014 03:08:34 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[8a82d229576d758a35887c00fc151efd]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/10/hot-to-get-your-boss-to-pay-for-azure-with-kenny-young/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/7/8/c/9/78c9383b7479939e/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Kenny Young to find out how to get your boss to pay for Azure. How to become a better programmer by googling it. Microsoft is doooooomed.]]></description>
+			<enclosure length="55172393" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0028.mp3" />
+			<itunes:duration>01:16:38</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Kenny Young to find out how to get your boss to pay for Azure. How to become a better programmer by googling it. Microsoft is doooooomed.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Getting Rich with Ads with Rob Irving and Simon Jackson</title>
+			<pubDate>Tue, 21 Oct 2014 01:46:52 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[99349595f43cb3a1c5a85a09a56fd65c]]></guid>
+			<link><![CDATA[msdevshow.com/2014/10/getting-rich-with-ads-with-robert-irving-and-simon-jackson/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/3/8/2/6/382600236de2e6c3/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Rob Irving and Simon Jackson about maximizing ad performance. Where do old devs go? How do office apps share 95% of their code?]]></description>
+			<enclosure length="48054735" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0027.mp3" />
+			<itunes:duration>01:06:45</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[We talk to Rob Irving and Simon Jackson about maximizing ad performance. Where do old devs go? How do office apps share 95% of their code?]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Everything You Didn't Know about Design with Rick Barraza</title>
+			<pubDate>Wed, 15 Oct 2014 01:28:03 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[06bfa44f31540ad2bc917fbf787272bd]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/10/everything-you-didn't-know-about-design/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/d/2/4/d/d24d875ff67621d0/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Rick Barraza to learn everything we didn't know about design. Deploy to azure with the click of a button. How to mirror your screen on your TV. How to write unmaintainable code.]]></description>
+			<enclosure length="54315447" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0026.mp3" />
+			<itunes:duration>01:15:27</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[We talk to Rick Barraza to learn everything we didn't know about design. Deploy to azure with the click of a button. How to mirror your screen on your TV. How to write unmaintainable code.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>The Web is Awesome with Jeremy Foster</title>
+			<pubDate>Mon, 06 Oct 2014 13:00:00 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[f9c1783383b4482cc84134c0dd69d570]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/10/the-web-is-awesome-with-jeremy-foster/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/d/9/6/3/d9638a064cb388da/Square_-_Blue.png" />
+			<description><![CDATA[We discuss the awesomeness of the web with Jeremy Foster. Wow space battles actually work. The 4k programmer. And why is the NSA creating one programming language to rule them all?]]></description>
+			<enclosure length="45366487" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0025.mp3" />
+			<itunes:duration>01:03:01</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>web,windows,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We discuss the awesomeness of the web with Jeremy Foster. Wow space battles actually work. The 4k programmer. And why is the NSA creating one programming language to rule them all?]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Web Performance Optimization with Brian Muenzenmeyer</title>
+			<pubDate>Tue, 30 Sep 2014 02:24:26 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[117c4f9066064654e7cdcedb1d16e41a]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/09/web-performance-optimization-with-brian-muenzenmeyer/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/c/6/9/1/c69110f94c2b1ef6/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Brian Muenzenmeyer about web performance optimization. Possibilities of RemoteApp. Why I don't teach SOLID. Mining bitcoin with pencil and paper.]]></description>
+			<enclosure length="57262714" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0024.mp3" />
+			<itunes:duration>01:19:32</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure,bitcoin</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Brian Muenzenmeyer about web performance optimization. Possibilities of RemoteApp. Why I don't teach SOLID. Mining bitcoin with pencil and paper.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Web Essentials &amp; SideWaffle w/ Mads Kristensen</title>
+			<pubDate>Tue, 23 Sep 2014 00:05:00 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[fcfd74d570ab61b39d7600c4bb0b2e09]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/09/web-essentials-and-sidewaffle-with-mads-kristensen/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/a/e/3/1/ae3169aadc0d9fe0/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Mads Kristensen about web essentials, SideWaffle, and extending visual studio. Get WinJS everywhere. How to salt your passwords to get the flavor just right. Build your own authenticator.]]></description>
+			<enclosure length="59357615" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0023.mp3" />
+			<itunes:duration>01:22:27</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Mads Kristensen about web essentials, SideWaffle, and extending visual studio. Get WinJS everywhere. How to salt your passwords to get the flavor just right. Build your own authenticator.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Azure Mobile Services with Brandon Martinez</title>
+			<pubDate>Tue, 16 Sep 2014 00:28:52 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[f1dac08b0b834fe49264f6d27ab6c660]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/09/azure-mobile-services-with-brandon-martinez/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/2/f/8/3/2f8378bb503e62f8/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Brandon Martinez about his experiences using Azure Mobile Services. The new Nokia-sized iPhone. What is the killer smart watch app? Visualizing algorithms through animations. Carl won't stop talking about SideWaffle.]]></description>
+			<enclosure length="49325283" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0022.mp3" />
+			<itunes:duration>01:08:31</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>cloud,mobile,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Brandon Martinez about his experiences using Azure Mobile Services. The new Nokia-sized iPhone. What is the killer smart watch app? Visualizing algorithms through animations. Carl won't stop talking about SideWaffle.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>DocumentDB with Ryan and Shireesh</title>
+			<pubDate>Sat, 06 Sep 2014 01:01:00 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[169e03a81c400aa11c0b87da4a603ca9]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/09/documentdb-with-ryan-and-shireesh/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/8/e/4/3/8e4309e759e9ba0f/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Ryan and Shireesh from the document DB team about the new hosted document database option in Azure. Google shows old versions of their homepage in older browsers. John Gruber and Jeff Atwood go head to head over markdown. Microsoft plays nice.]]></description>
+			<enclosure length="47895702" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0021.mp3" />
+			<itunes:duration>01:06:32</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>azure,documentdb,docdb</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Ryan and Shireesh from the document DB team about the new hosted document database option in Azure. Google shows old versions of their homepage in older browsers. John Gruber and Jeff Atwood go head to head over markdown. Microsoft plays nice.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Real Agile in Microsoft with Justin Marks</title>
+			<pubDate>Sat, 30 Aug 2014 02:05:30 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[a79bcf626fdf7d359cee54cad8619a38]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/08/real-agile-in-microsoft-with-justin-marks/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/6/a/1/3/6a13869dcd606a36/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Justin Marks about agile within Microsoft. Supercharging Visual Studio with a new Bing extension. Add Window live tiles to Chrome.]]></description>
+			<enclosure length="45232341" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0020.mp3" />
+			<itunes:duration>01:02:50</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>microsoft,agile,scrum,tfs,vso</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Justin Marks about agile within Microsoft. Supercharging Visual Studio with a new Bing extension. Add Window live tiles to Chrome.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Azure Search with Liam Cavanagh</title>
+			<pubDate>Wed, 27 Aug 2014 01:56:21 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[89efed5237a9d28ae6009bacfaf047c0]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/08/azure-search-with-liam-cavanagh/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/5/d/7/e/5d7eedc5fe42ec74/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Liam Cavanagh about the new Azure search service. Using Gooey to turn console applications into Windows applications. Azure SQL Database goes GA. How the Napa Earthquake Affected Bay Area Sleepers.]]></description>
+			<enclosure length="43187791" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0019.mp3" />
+			<itunes:duration>59:59</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>search,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Liam Cavanagh about the new Azure search service. Using Gooey to turn console applications into Windows applications. Azure SQL Database goes GA. How the Napa Earthquake Affected Bay Area Sleepers.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Fear, Productivity, and how to Rob a Bank with Jeff Blankenburg</title>
+			<pubDate>Sat, 16 Aug 2014 02:24:09 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[b00dfe883c9471fc2f330ae7a329ce7e]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/08/fear-productivity-and-how-to-rob-a-bank-with-jeff-blankenburg/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/7/c/f/b/7cfbac045701ef45/Square_-_Blue.png" />
+			<description><![CDATA[We talk to Jeff Blankenburg about fear, productivity, and how to rob a bank. Let's compile like it's 1992. Delete your mail while you're on vacation.]]></description>
+			<enclosure length="49039983" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0018.mp3" />
+			<itunes:duration>01:08:07</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>fear,productivity</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Jeff Blankenburg about fear, productivity, and how to rob a bank. Let's compile like it's 1992. Delete your mail while you're on vacation.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Azure Active Directory with Marc Kuperstein</title>
+			<pubDate>Fri, 08 Aug 2014 22:27:40 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[25cee57a212bea1e371cc7dd1cacbc17]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/08/azure-active-directory-with-marc-kuperstein/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/e/0/5/5/e055cf66e016d3d0/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Marc Kuperstein about Azure Active Directory. Using Cortana when your phone is locked. Microsoft is dropping old versions of IE. And what ORM's have taught me - just learn SQL.]]></description>
+			<enclosure length="44212536" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0017.mp3" />
+			<itunes:duration>01:01:25</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure,ad,aad,waad</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Marc Kuperstein about Azure Active Directory. Using Cortana when your phone is locked. Microsoft is dropping old versions of IE. And what ORM's have taught me - just learn SQL.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Windows Phone Apps with Ambassador Lance McCarthy</title>
+			<pubDate>Tue, 05 Aug 2014 02:03:09 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[c47ac83e799f201ae2b9e625c8f72ec7]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/08/windows-phone-apps-with-ambassador-lance-mccarthy/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/a/c/b/1acbf3a4b7c95896/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Nokia Ambassador Lance McCarthy about Windows app development. An update to Windows Phone 8.1. We look back to c for programming fundamentals, and look forward to C# 6.]]></description>
+			<enclosure length="44279329" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0016.mp3" />
+			<itunes:duration>01:01:30</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,phone,ambassador</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Nokia Ambassador Lance McCarthy about Windows app development. An update to Windows Phone 8.1. We look back to c for programming fundamentals, and look forward to C# 6.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Azure Event Hubs with Dan Rosanova</title>
+			<pubDate>Mon, 28 Jul 2014 17:15:21 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[fe5c1713f2b0a98c6541434197f4771c]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/07/azure-event-hubs-with-dan-rosanova/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/0/3/9/c/039cb9739fe0ef56/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Dan Rosanova about Azure Event Hubs and scaling to millions of devices. The single question for the most successful technical interview. Scaling to 560M page views each month on only 25 servers. Lots of XAML resources for building amazing apps.]]></description>
+			<enclosure length="39838066" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0015.mp3" />
+			<itunes:duration>55:20</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure,event,hubs</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Dan Rosanova about Azure Event Hubs and scaling to millions of devices. The single question for the most successful technical interview. Scaling to 560M page views each month on only 25 servers. Lots of XAML resources for building amazing...]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Telerik and That Conference with Clark Sell</title>
+			<pubDate>Fri, 18 Jul 2014 13:52:27 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[2a1a580365ac0ca54450da326328e7c8]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/07/telerik-and-that-conference-with-clark-sell/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/d/1/8/4/d1841981f192dc16/Square_-_Blue.png" />
+			<description><![CDATA[This week we talk to Clark Sell about his new job at Telerik, "That Conference", Google is killing your laptop battery, Microsoft kills off some Nokia phones, and more!]]></description>
+			<enclosure length="54433991" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0014.mp3" />
+			<itunes:duration>01:15:37</itunes:duration>
+			<itunes:explicit>no</itunes:explicit>
+			<itunes:keywords>conference,windows,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[This week we talk to Clark Sell about his new job at Telerik, "That Conference", Google is killing your laptop battery, Microsoft kills off some Nokia phones, and more!]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Nitrogen for IoT with Tim Park</title>
+			<pubDate>Sat, 12 Jul 2014 19:46:09 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[146f38007b53ee5b97bb3c087a4ebdf4]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/07/nitrogen-and-iot-with-tim-park/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/f/c/8/8/fc8821f97ede693e/Square_-_Blue.png" />
+			<description><![CDATA[We talk about Nitrogen.js and IoT with Tim Park. Got sweet code? Save it. The intro to reactive programming you've been missing, and why is c# suddenly so popular?]]></description>
+			<enclosure length="39868860" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0013.mp3" />
+			<itunes:duration>55:23</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,azure,nitrogen,iot</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk about Nitrogen.js and IoT with Tim Park. Got sweet code? Save it. The intro to reactive programming you've been missing, and why is c# suddenly so popular?]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>GitHub with Phil Haack!</title>
+			<pubDate>Thu, 03 Jul 2014 13:04:03 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[ffedb68154260f9e44e8f5976d24e06c]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/07/github-with-phil-haack/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/8/7/7/f/877f418522ff51a8/Square_-_Blue.png" />
+			<description><![CDATA[This week we talk with Phil Haack about GitHub and much more! Human JavaScript, Universal Windows Apps, and 10 real world algorithms that dominate our world.]]></description>
+			<enclosure length="55270228" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0012.mp3" />
+			<itunes:duration>01:16:46</itunes:duration>
+			<itunes:explicit>no</itunes:explicit>
+			<itunes:keywords>windows,azure,github,haack</itunes:keywords>
+			<itunes:subtitle><![CDATA[This week we talk with Phil Haack about GitHub and much more! Human JavaScript, Universal Windows Apps, and 10 real world algorithms that dominate our world.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Azure with Eric D. Boyd</title>
+			<pubDate>Wed, 25 Jun 2014 21:59:00 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[2eec473d0fdc575039dff8709ca36c54]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/06/azure-with-eric-d-boyd/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/c/2/e/5/c2e56fdb0c2f71dc/Square_-_Blue.png" />
+			<description><![CDATA[This week we talk Azure with Eric D. Boyd from ResponsiveX. We also cover 7 things the surface pro 3 can do better than your laptop, observable object support in JavaScript, and home automation.]]></description>
+			<enclosure length="115941461" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0011.mp3" />
+			<itunes:duration>01:20:31</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[This week we talk Azure with Eric D. Boyd from ResponsiveX. We also cover 7 things the surface pro 3 can do better than your laptop, observable object support in JavaScript, and home automation.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>WTH is IoT?</title>
+			<pubDate>Sat, 21 Jun 2014 13:34:38 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[b61614c3b88ae7c7b0ad0c8dbae23154]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/06/wth-is-iot/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/6/d/3/4/6d34de55cd0e18da/Square_-_Blue.png" />
+			<description><![CDATA[This week we ask what the heck is IoT? Video processing from a phone mounted to a car wheel. Azure ML. IE developer channel. What is a CDN? (sorry for the poor audio quality on Jason's side)]]></description>
+			<enclosure length="70314760" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0010.mp3" />
+			<itunes:duration>48:50</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,phone,azure,cdn,ml,iot</itunes:keywords>
+			<itunes:subtitle><![CDATA[This week we ask what the heck is IoT? Video processing from a phone mounted to a car wheel. Azure ML. IE developer channel. What is a CDN? (sorry for the poor audio quality on Jason's side)]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Enterprise Store Apps with Greg Levenhagen</title>
+			<pubDate>Sat, 14 Jun 2014 12:26:09 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[867152b7c3de88b830b406950327ca47]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/06/enterprise-store-apps-with-greg-levenhagen/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/6/f/8/a/6f8a9ec7e3636a4a/Square_-_Blue.png" />
+			<description><![CDATA[We talk with Greg Levenhagen about enterprise development. We take a look at a comparison between Swift and C#, The Share Icon that no one agrees on, Docker on Azure, and Windows is being used on the Mac Pro production line?]]></description>
+			<enclosure length="101167079" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0009.mp3" />
+			<itunes:duration>01:10:16</itunes:duration>
+			<itunes:explicit>no</itunes:explicit>
+			<itunes:keywords>windows,apple,azure,store,docker</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with Greg Levenhagen about enterprise development. We take a look at a comparison between Swift and C#, The Share Icon that no one agrees on, Docker on Azure, and Windows is being used on the Mac Pro production line?]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>BattleHack! with Anthony Russell</title>
+			<pubDate>Mon, 09 Jun 2014 01:50:09 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[5d1996aa0aa51c0640d731b8dde41386]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/06/battlehack-with-anthony-russell/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/9/f/d/7/9fd7572f367ce3ef/Square_-_Blue.png" />
+			<description><![CDATA[We talk with windows phone developer Anthony Russell about BattleHack! Also, Apple's recent WWDC announcements, optimizing SQL Server for Azure, and Azure service bus relay.]]></description>
+			<enclosure length="93983197" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0008.mp3" />
+			<itunes:duration>01:05:16</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,russell,azure,anthony,battlehack</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk with windows phone developer Anthony Russell about BattleHack! Also, Apple's recent WWDC announcements, optimizing SQL Server for Azure, and Azure service bus relay.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Orleans &amp; Thinking Outside the Box</title>
+			<pubDate>Sat, 31 May 2014 01:06:45 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[ff91c0e0ec9d72906041be0691cbfd10]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/05/orleans-and-thinking-outside-the-box/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/2/7/a/b/27ab619e132d21db/Square_-_Blue.png" />
+			<description><![CDATA[This week we're hacking Orleans. We also talk about a novel approach to silencing the iPhone camera shutter, how apple cheats, and the Surface 3 AMA.]]></description>
+			<enclosure length="64232223" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0007.mp3" />
+			<itunes:duration>44:37</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,orleans,phone,azure,surface</itunes:keywords>
+			<itunes:subtitle><![CDATA[This week we're hacking Orleans. We also talk about a novel approach to silencing the iPhone camera shutter, how apple cheats, and the Surface 3 AMA.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Top 10 Windows App Mistakes with Jason Short</title>
+			<pubDate>Sat, 24 May 2014 14:45:50 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[874d04058a03930abfba79b724fa84b0]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/05/top-10-windows-app-mistakes-with-jason-short/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png" />
+			<description><![CDATA[We talk to Jason Short about his real world experience with the top mistakes developers make when building Windows apps. We also discuss the Surface Pro 3 annoucement.]]></description>
+			<enclosure length="82847969" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0006.mp3" />
+			<itunes:duration>57:32</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>app,windows,developer</itunes:keywords>
+			<itunes:subtitle><![CDATA[We talk to Jason Short about his real world experience with the top mistakes developers make when building Windows apps. We also discuss the Surface Pro 3 annoucement.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>TechEd 2014</title>
+			<pubDate>Mon, 19 May 2014 13:19:34 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[412afda29aae21c944b83a8a9631d402]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/05/teched-2014/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png" />
+			<description><![CDATA[Our TechEd 2014 recap. We also talk about an update to Windows Phone 8.1 and good news for Windows Phone adoption.]]></description>
+			<enclosure length="76013128" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0005.mp3" />
+			<itunes:duration>52:48</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[Our TechEd 2014 recap. We also talk about an update to Windows Phone 8.1 and good news for Windows Phone adoption.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Mobile Development with Jeff Weber</title>
+			<pubDate>Sat, 10 May 2014 03:14:09 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[5eded648b734b3b834f6cd88c138614e]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/05/jeff-weber/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png" />
+			<description><![CDATA[This week we talk to iOS and Windows Phone game developer Jeff Weber about his success to date with his fantastic game Krashlander. Jeff explains how he got into developing games and the experiences he had bringing his games to market. We also talk about Azure websites, Windows Phone news, That Conference, and congratulate Jeff and Jason on being selected as speakers.]]></description>
+			<enclosure length="64529474" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0004.mp3" />
+			<itunes:duration>01:07:08</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[This week we talk to iOS and Windows Phone game developer Jeff Weber about his success to date with his fantastic game Krashlander. Jeff explains how he got into developing games and the experiences he had bringing his games to market. We also talk...]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>April 25th, 2014</title>
+			<pubDate>Fri, 25 Apr 2014 20:59:32 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[b4098bae3fa947f9517e67de779411c8]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/04/april-25-2014]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png" />
+			<description><![CDATA[Carl goes to DVLUP, embracing a hackfest culture, new sound setup, Nokia aquisition complete, MSDevShow.com is pinnable, and Azure storage options.]]></description>
+			<enclosure length="73530651" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0003.mp3" />
+			<itunes:duration>51:04</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[Carl goes to DVLUP, embracing a hackfest culture, new sound setup, Nokia aquisition complete, MSDevShow.com is pinnable, and Azure storage options.]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>JavaScript Promises with Brandon Martinez</title>
+			<pubDate>Fri, 18 Apr 2014 21:16:24 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[75260eaaf79e34704f61a946ab19699d]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/04/javascript-promises-brandon-martinez/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png" />
+			<description><![CDATA[Jason and Carl talk about why they started the podcast. Jason gets excited about new hardware, and talks about setting up the show. We have special guest Brandon Martinez, and he talks about JavaScript promises. He was also the musical genius behind our intro music and logo.]]></description>
+			<enclosure length="74422186" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0002.mp3" />
+			<itunes:duration>51:41</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>javascript,promises</itunes:keywords>
+			<itunes:subtitle><![CDATA[This will be Epic - I Promise]]></itunes:subtitle>
+					</item>
+		<item>
+			<title>Build 2014</title>
+			<pubDate>Tue, 15 Apr 2014 00:06:14 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[92db0e40fb64b13045639287ea289559]]></guid>
+			<link><![CDATA[http://msdevshow.com/2014/04/build-2014/]]></link>
+			<itunes:image href="http://static.libsyn.com/p/assets/1/6/1/9/16195f20fda67595/iTunes_Cover_Art.png" />
+			<description><![CDATA[]]></description>
+			<enclosure length="54463228" type="audio/mpeg" url="http://traffic.libsyn.com/msdevshow/msdevshow_0001.mp3" />
+			<itunes:duration>56:44</itunes:duration>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>windows,microsoft,phone,azure</itunes:keywords>
+			<itunes:subtitle><![CDATA[]]></itunes:subtitle>
+					</item>
+	</channel>
+</rss>

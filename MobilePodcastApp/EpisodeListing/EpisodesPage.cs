@@ -117,20 +117,7 @@ namespace MobilePodcastApp.EpisodeListing
             var http = new HttpClient();
             var rss = await http.GetStringAsync(App.AppSettings.EpisodeRssFeed);
 
-	        var doc = XDocument.Parse(rss);
-            var items = (from item in doc.Element("rss").Element("channel").Elements("item")
-             select new FeedItem
-             {
-                 Title = item.Element("title").Value,
-                 Link = item.Element("link").Value,
-                 Description = item.Element("description").Value,
-                 PublicationDate = DateTime.Parse(item.Element("pubDate").Value),
-                 GUID = item.Element("guid").Value,
-                 EnclosureUrl = item.Element("enclosure").Attribute("url").Value,
-                 //Duration = TimeSpan.Parse(item.Element("duration").Value)
-             }).ToList();
-
-	        return items;
+	        return ShowFeed.ParseRssFeed(rss);
         }
 	}
 }
