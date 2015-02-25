@@ -26,6 +26,8 @@ namespace MobilePodcastApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::PCLStorage.Resource.String.ApplicationName = global::MobilePodcastApp.Droid.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::MobilePodcastApp.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -53,6 +55,25 @@ namespace MobilePodcastApp.Droid
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class String
+		{
+			
+			// aapt resource value: 0x7f030001
+			public const int ApplicationName = 2130903041;
+			
+			// aapt resource value: 0x7f030000
+			public const int Hello = 2130903040;
+			
+			static String()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private String()
 			{
 			}
 		}
