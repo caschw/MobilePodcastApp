@@ -23,11 +23,14 @@ namespace MobilePodcastApp.EpisodeListing
 	    {
 	        _episodeListView = new ListView
 	        {
+                //Allows different row sizes
+                HasUnevenRows = true,
 	            IsVisible = false,
 	            ItemsSource = _episodes,
 	            ItemTemplate = new DataTemplate(() =>
 	            {
-	                var titleLabel = new Label {FontSize = 26, FontAttributes = FontAttributes.Bold};
+	                var titleLabel = new Label {FontSize = Device.OnPlatform(26, 16, 26),
+                        FontAttributes = FontAttributes.Bold};
 	                titleLabel.SetBinding(Label.TextProperty, "Title");
 
 	                var publishDateLabel = new Label();
