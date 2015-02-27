@@ -7,6 +7,9 @@ using Label = Xamarin.Forms.Label;
 #if WINDOWS_PHONE
 using Microsoft.Phone.BackgroundAudio;
 #endif
+#if ANDROID
+using MobilePodcastApp.Droid;
+#endif
 
 // ReSharper disable once CheckNamespace
 namespace MobilePodcastApp.EpisodeListing
@@ -41,6 +44,10 @@ namespace MobilePodcastApp.EpisodeListing
             var player = BackgroundAudioPlayer.Instance;
             player.Play();
 #endif
+#if ANDROID
+            var player = new Audio();
+            player.Start();
+#endif 
 	    }
 	}
 }
